@@ -1,0 +1,36 @@
+
+button {
+    width: 40%;
+    height: 22px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #de9deb9a;
+    padding: 2px;
+    font-weight: bold;
+}
+
+
+#btn {
+    width: 200%;
+    margin: 5px 0px 0px 0px;
+}
+
+.contadorcmd,
+.contadorpoison {
+    font-size: 80px;
+}
+
+.contadorvida {
+    font-size: 220px
+}
+
+.btncmd,
+.btnpoison,
+.btnvida {
+    display: flex;
+    justify-content: space-around;
+
+}
