@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Contador de Vida</title>
+    <script src="./js/script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <!-- desenvolver a barra de navegação -->
+        </nav>
+    </header>
+    <main>
+        <h1>Contador de vida</h1>
+        <section class="danocmd">
+            <div class="titlecmd">
+                <h2>Dano Comandante</h2>
+                <p id="contadorcmd" class="contadorcmd">0</p>
+            </div>
+            <div class="btncmd">
+                <button onclick="decrementar()">-</button>
+                <button onclick="incrementar()">+</button>
+            </div>
+        </section>
+
+        <section class="danopoison">
+            <div>
+                <h2>Veneno</h2>
+                <p id="contadorpoison" class="contadorpoison">0</p>
+            </div>
+            <div class="btnpoison">
+                <button onclick="decrementarr()">-</button>
+                <button onclick="incrementarr()">+</button>
+            </div>
+        </section>
+
+        <section class="vida">
+            <div>
+                <h2>Vida</h2>
+                <p id="contadorvida" class="contadorvida">20</p>
+            </div>
+            <div class="btnvida">
+                <button onclick="decrementarrr()">-</button>
+                <button onclick="incrementarrr()">+</button>
+            </div>
+        </section>
+
+        <section class="reset">
+            <button onclick="zerar()" id="btn">Reset</button>
+        </section>
+
+
+    </main>
+</body>
+<footer>
+
+    <!-- desenvolver o rodapé -->
+</footer>
+
+</html>
