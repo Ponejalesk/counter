@@ -7,31 +7,30 @@
 
 body {
     height: 100vh;
-    width: 100vw;
-    background-color: darkgreen;
+    width: 100vw;    
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url(../img/bkg.png);
+    background-size: cover;
 }
 
 main {
-    background-color: rgba(79, 112, 22, 0.616);
-    width: 90%;
-    height: 90%;
+    width: 390px;
+    height: 844px;
+    
     padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .danocmd {
-    background-color: blue;
+
     width: 90%;
     height: 25%;
-
-
+    border-radius: 5px;
 }
 
 h1 {
@@ -40,37 +39,52 @@ h1 {
     font-size: bold;
 }
 
-h2,
+h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Macondo', cursive;
+    font-size: 15px;
+    padding: 12px;
+    color: rgba(10, 10, 10, 0.911);
+     
+}
 p {
     display: flex;
     justify-content: center;
     font-family: 'Macondo', cursive;
     font-size: 15px;
-    padding: 5px;
+    padding: 12px;
+    color: rgba(15, 15, 15, 0.911);
+     -webkit-text-stroke: 1px rgba(241, 239, 239, 0.356);
+      text-stroke: 1px rgba(214, 214, 214, 0.5);
+
+
 }
 
 .danopoison {
-    background-color: bisque;
+
     width: 90%;
     height: 25%;
     margin: 5px;
+    border-radius: 12px;
 }
 
 .vida {
-    background-color: blue;
+
     width: 90%;
     height: 50%;
+    border-radius: 12px;
 }
 
 button {
     width: 40%;
-    height: 22px;
+    height: 30px;
     margin-bottom: 5px;
     cursor: pointer;
     border: none;
     outline: none;
     border-radius: 5px;
-    background-color: #de9deb9a;
+    background-color: #21728633;
     padding: 2px;
     font-weight: bold;
 }
@@ -79,6 +93,13 @@ button {
 #btn {
     width: 200%;
     margin: 5px 0px 0px 0px;
+    
+}
+
+.reset {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .contadorcmd,
