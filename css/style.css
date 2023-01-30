@@ -6,8 +6,8 @@
 }
 
 body {
+    width: 100vw;
     height: 100vh;
-    width: 100vw;    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,9 +17,7 @@ body {
 
 main {
     width: 390px;
-    height: 844px;
-    
-    padding: 10px;
+    height: 740px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,27 +25,25 @@ main {
 }
 
 .danocmd {
-
     width: 90%;
     height: 25%;
-    border-radius: 5px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.11);
 }
 
 h1 {
-    padding: 10px;
     font-family: 'Macondo', cursive;
     font-size: bold;
 }
 
-h2{
+h2 {
     display: flex;
-    justify-content: center;
+    margin-left: 8px;
     font-family: 'Macondo', cursive;
     font-size: 15px;
-    padding: 12px;
     color: rgba(10, 10, 10, 0.911);
-     
 }
+
 p {
     display: flex;
     justify-content: center;
@@ -55,25 +51,23 @@ p {
     font-size: 15px;
     padding: 12px;
     color: rgba(15, 15, 15, 0.911);
-     -webkit-text-stroke: 1px rgba(241, 239, 239, 0.356);
-      text-stroke: 1px rgba(214, 214, 214, 0.5);
-
-
+    -webkit-text-stroke: 1px rgba(241, 239, 239, 0.356);
+    text-stroke: 1px rgba(214, 214, 214, 0.5);
 }
 
 .danopoison {
-
     width: 90%;
-    height: 25%;
-    margin: 5px;
+    height: 24%;
+    margin: 8px;
     border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.11);
 }
 
 .vida {
-
     width: 90%;
     height: 50%;
     border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.11);
 }
 
 button {
@@ -89,11 +83,13 @@ button {
     font-weight: bold;
 }
 
+button:hover {
+    background-color: rgba(61, 43, 226, 0.308);
+}
 
 #btn {
     width: 200%;
     margin: 5px 0px 0px 0px;
-    
 }
 
 .reset {
@@ -116,5 +112,4 @@ button {
 .btnvida {
     display: flex;
     justify-content: space-around;
-
 }
