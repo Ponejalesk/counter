@@ -25,5 +25,10 @@ function decrementarrr() {
 function zerar() {
     contadorpoison.innerText = "0"
     contadorcmd.innerText = "0"
+    contadorvida.innerText = "40"
+}
+
+function resetar() {
+    contadorpoison.innerText = "0"
     contadorvida.innerText = "20"
 }
