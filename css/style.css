@@ -13,6 +13,7 @@ body {
     justify-content: center;
     background-image: url(../img/bkg.png);
     background-size: cover;
+    overflow: hidden;
 }
 
 main {
@@ -52,7 +53,7 @@ p {
     padding: 12px;
     color: rgba(15, 15, 15, 0.911);
     -webkit-text-stroke: 1px rgba(241, 239, 239, 0.356);
-    text-stroke: 1px rgba(214, 214, 214, 0.5);
+    text-shadow: 1px rgba(214, 214, 214, 0.5);
 }
 
 .danopoison {
@@ -78,13 +79,14 @@ button {
     border: none;
     outline: none;
     border-radius: 5px;
-    background-color: #21728633;
+    background-color: hwb(46 2% 54% / 0.356);
     padding: 2px;
     font-weight: bold;
+    transition: background 0.3s;
 }
 
 button:hover {
-    background-color: rgba(61, 43, 226, 0.308);
+    background-color: rgba(105, 90, 2, 0.938);
 }
 
 #btn {
@@ -112,4 +114,16 @@ button:hover {
 .btnvida {
     display: flex;
     justify-content: space-around;
+}
+
+.std, a {
+    margin-top: 10;
+    width: 90px;
+    display: block;
+    justify-items: center;
+    align-items: flex-start;
+    right: 0;
+    text-decoration: none;
+    
+
 }
