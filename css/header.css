@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+/*Header*/
+header {
+    background-color: var(--bg-nav);
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+
+.links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 2px;
+    margin-right: 10px;
+}
+
+.links a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    display: block;
+    padding: 15px;
+}
+
+a:hover {
+    background-color: rgb(66, 66, 66);
+}
+
+.btn-mobile {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .btn-mobile {
+        display: flex;
+        border: none;
+        background: none;
+        cursor: pointer;
+        margin-right: 9px;
+        gap: 5px;
+        padding: 2px;
+    }
+
+    .links {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 68px;
+        left: 0;
+        background-color: var(--bg-nav);
+        transition: .6s;
+        z-index: 10;
+        height: 0px;
+        visibility: hidden;
+        overflow-y: hidden;
+
+    }
+
+    .nav-bar.active .links {
+        height: 140px;
+        visibility: visible;
+        /*overflow-y: auto;*/
+    }
+
+    .links a {
+        padding: 7px 2px;
+        margin: 0px 7px;
+    }
+
+    .btn {
+        width: 20px;
+        border-top: 3px solid;
+    }
+
+    .btn::after,
+    .btn::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 3px;
+        margin-top: 5px;
+        background-color: black;
+        transition: .3s;
+        position: relative;
+    }
+
+    .nav-bar.active .btn {
+        border-top-color: transparent;
+    }
+
+    .nav-bar.active .btn::before {
+        transform: rotate(135deg);
+    }
+
+    .nav-bar.active .btn::after {
+        transform: rotate(-135deg);
+        top: -8px;
+    }
+
+
+}
