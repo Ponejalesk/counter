@@ -267,18 +267,13 @@ img {
         background-color: var(--bg-body);
     }
     
-    .container {
-        max-width: 926px;
-        margin: auto;
-    }
-    
     /*itens retirados para a folha de estilos header*/
     
     
     /*Main*/
     main {
         width: 100vw;
-        height: 870px;
+        height: auto;
         background-image: url(../img/mtgmobile.jpg);
         background-size: cover;
     }
@@ -286,20 +281,21 @@ img {
     /*Section Marcador*/
     .section-marcador {
         width: auto;
-        height: 790px; /*Mexendo com a altura da página*/
-        margin-left: 20px;
-        display: inline-block;
+        height: auto; /*Mexendo com a altura da página*/
+        display: flex;
         flex-direction: column;
         justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     
     /*Sectio Reset*/
     .section-reset {
         position: relative;
-        width: auto;
-        height: 48px;
+        width: 270px;
+        height: 40px;
         background-color: var(--bg-marcador);
-        top: 0px; /*-160px*/
+        top: -5px; /*-160px*/
         display: flex;
         align-items: center;
         justify-content: center;
@@ -307,22 +303,34 @@ img {
     }
     
     /*Marcadores*/
-    .marcador {
-        width: 318px;
-        height: 384px;
+    .marcador { 
+        width: 270px;
+        height: 288px;
         margin-right: 0px;
         margin-top: 0px;
         background-color: var(--bg-marcador);
         border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .marcadorstd { 
+        width: 270px;
+        height: 230px;
+        margin-right: 0px;
+        margin-top: 0px;
+        background-color: var(--bg-marcador);
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
     }
     
     .valorvenenostd {
-        width: 318px;
-        height: 267px;
+        width: 270px;
+        height: 140px;
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 100px;
+        font-size: 75px;
         font-family: 'Inter', sans-serif;
         color: var(--font-titulo);
         text-shadow: #111 0px 2px 4px;
@@ -332,44 +340,44 @@ img {
     .castcmd,
     .danocmd,
     .veneno {
-        width: 318px;
-        height: 20px;
+        width: 270px;
+        height: 15px;
         display: flex;
         justify-content: center;
-        font-size: 18px;
+        font-size: 14px;
         font-family: 'Inter', sans-serif;
         color: var(--font-titulo);
-        text-shadow: #111 0px 2px 4px;
-        margin-top: 3px;
+        text-shadow: #111 0px 2px 4px; /*não alterei*/
+        margin-top: 2px;
     }
     
     .mvida {
-        width: 318px;
-        height: 48px;
+        width: 270px;
+        height: 36px;
         display: flex;
         justify-content: center;
-        font-size: 36px;
+        font-size: 27px;
         font-family: 'Inter', sans-serif;
         color: var(--font-titulo);
         text-shadow: #111 0px 2px 4px;
-        margin-top: 15px;
+        margin-top: 11px;
     }
     
     .mveneno {
-        width: 318px;
-        height: 48px;
+        width: 270px;
+        height: 36px;
         display: flex;
         justify-content: center;
-        font-size: 25px;
+        font-size: 20px;
         font-family: 'Inter', sans-serif;
         color: var(--font-titulo);
         text-shadow: #111 0px 2px 4px;
-        margin-top: 15px;
+        margin-top: 11px;
     }
     
     .vida {
-        width: 318px;
-        height: 384px;
+        width: 270px;
+        height: 268px;
         margin-left: 0px;
         margin-top: 5px;
         background-color: var(--bg-marcador);
@@ -377,12 +385,12 @@ img {
     }
     
     .valorvida {
-        width: 318px;
-        height: 267px;
+        width: 270px;
+        height: 180px;
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 144px;
+        font-size: 115px;
         font-family: 'Inter', sans-serif;
         color: var(--font-titulo);
         text-shadow: #111 0px 2px 4px;
@@ -396,7 +404,7 @@ img {
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 55px;
+        font-size: 46px;
         font-family: 'Inter', sans-serif;
         color: var(--font-titulo);
         text-shadow: #111 0px 2px 4px;
@@ -405,23 +413,24 @@ img {
     
     /*Botões Marcadores*/
     .botoes {
-        width: 318px;
-        height: 108px;
+        width: 265px;
+        height: 77px;
         display: flex;
         justify-content: center;
         align-items: center;
+       
     }
     
     .chevronmenos,
     img {
-        width: 37px;
-        height: 37px;
+        width: 32px;
+        height: 32px;
     }
     
     .btnmenos,
     .btnmais {
-        width: 40px;
-        height: 82px;
+        width: 34px;
+        height: 61px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -433,8 +442,8 @@ img {
     /*Botões Veneno STD*/
     .vstdbtnmais,
     .vstdbtnmenos {
-        width: 140px;
-        height: 40px;
+        width: 119px;
+        height: 32px;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -446,8 +455,8 @@ img {
     /*Botões Vida*/
     .vbtnmais,
     .vbtnmenos {
-        width: 140px;
-        height: 40px;
+        width: 119px;
+        height: 32px;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -457,8 +466,8 @@ img {
     }
     
     .vbotoes {
-        width: 318px;
-        height: 40px;
+        width: 270px;
+        height: 36px;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -466,8 +475,8 @@ img {
     
     /*Botão Zerar*/
     .reset {
-        width: 140px;
-        height: 40px;
+        width: 119px;
+        height: 36px;
         display: flex;
         justify-content: space-around;
         align-items: center;

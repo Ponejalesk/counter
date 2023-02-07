@@ -42,6 +42,11 @@ a:hover {
 }
 
 @media (max-width: 600px) {
+
+    header {        
+        height: 45px;        
+    }
+
     .btn-mobile {
         display: flex;
         border: none;
@@ -56,7 +61,7 @@ a:hover {
         display: block;
         position: absolute;
         width: 100%;
-        top: 68px;
+        top: 45px;
         left: 0;
         background-color: var(--bg-nav);
         transition: .6s;
