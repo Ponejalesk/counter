@@ -266,44 +266,46 @@ img {
         width: 100vw;
         background-color: var(--bg-body);
     }
-    
+
     /*itens retirados para a folha de estilos header*/
-    
-    
+
+
     /*Main*/
     main {
         width: 100vw;
-        height: auto;
+        height: calc(100vh - 90px);
         background-image: url(../img/mtgmobile.jpg);
         background-size: cover;
     }
-    
+
     /*Section Marcador*/
     .section-marcador {
         width: auto;
-        height: auto; /*Mexendo com a altura da página*/
+        height: auto;
+        /*Mexendo com a altura da página*/
         display: flex;
         flex-direction: column;
         justify-content: center;
         padding-top: 10px;
         padding-bottom: 10px;
     }
-    
+
     /*Sectio Reset*/
     .section-reset {
         position: relative;
         width: 270px;
         height: 40px;
         background-color: var(--bg-marcador);
-        top: -5px; /*-160px*/
+        top: -5px;
+        /*-160px*/
         display: flex;
         align-items: center;
         justify-content: center;
         border-radius: 10px;
     }
-    
+
     /*Marcadores*/
-    .marcador { 
+    .marcador {
         width: 270px;
         height: 288px;
         margin-right: 0px;
@@ -313,7 +315,8 @@ img {
         justify-content: center;
         align-items: center;
     }
-    .marcadorstd { 
+
+    .marcadorstd {
         width: 270px;
         height: 230px;
         margin-right: 0px;
@@ -323,7 +326,7 @@ img {
         justify-content: center;
         align-items: center;
     }
-    
+
     .valorvenenostd {
         width: 270px;
         height: 140px;
@@ -336,7 +339,7 @@ img {
         text-shadow: #111 0px 2px 4px;
         font-weight: 500;
     }
-    
+
     .castcmd,
     .danocmd,
     .veneno {
@@ -347,10 +350,11 @@ img {
         font-size: 14px;
         font-family: 'Inter', sans-serif;
         color: var(--font-titulo);
-        text-shadow: #111 0px 2px 4px; /*não alterei*/
+        text-shadow: #111 0px 2px 4px;
+        /*não alterei*/
         margin-top: 2px;
     }
-    
+
     .mvida {
         width: 270px;
         height: 36px;
@@ -362,7 +366,7 @@ img {
         text-shadow: #111 0px 2px 4px;
         margin-top: 11px;
     }
-    
+
     .mveneno {
         width: 270px;
         height: 36px;
@@ -374,7 +378,7 @@ img {
         text-shadow: #111 0px 2px 4px;
         margin-top: 11px;
     }
-    
+
     .vida {
         width: 270px;
         height: 268px;
@@ -383,7 +387,7 @@ img {
         background-color: var(--bg-marcador);
         border-radius: 10px;
     }
-    
+
     .valorvida {
         width: 270px;
         height: 180px;
@@ -396,7 +400,7 @@ img {
         text-shadow: #111 0px 2px 4px;
         font-weight: 500;
     }
-    
+
     .valorcastcmd,
     .valordanocmd,
     .valorveneno {
@@ -410,7 +414,7 @@ img {
         text-shadow: #111 0px 2px 4px;
         font-weight: 700;
     }
-    
+
     /*Botões Marcadores*/
     .botoes {
         width: 265px;
@@ -418,15 +422,15 @@ img {
         display: flex;
         justify-content: center;
         align-items: center;
-       
+        padding-left: 2.5px;
     }
-    
+
     .chevronmenos,
     img {
         width: 32px;
         height: 32px;
     }
-    
+
     .btnmenos,
     .btnmais {
         width: 34px;
@@ -438,7 +442,7 @@ img {
         background: var(--color-btn);
         background-blend-mode: normal;
     }
-    
+
     /*Botões Veneno STD*/
     .vstdbtnmais,
     .vstdbtnmenos {
@@ -451,7 +455,7 @@ img {
         background: var(--color-btn);
         background-blend-mode: normal;
     }
-    
+
     /*Botões Vida*/
     .vbtnmais,
     .vbtnmenos {
@@ -464,7 +468,7 @@ img {
         background: var(--color-btn);
         background-blend-mode: normal;
     }
-    
+
     .vbotoes {
         width: 270px;
         height: 36px;
@@ -472,7 +476,7 @@ img {
         justify-content: space-around;
         align-items: center;
     }
-    
+
     /*Botão Zerar*/
     .reset {
         width: 119px;
@@ -484,20 +488,20 @@ img {
         background: var(--color-btn);
         background-blend-mode: normal;
     }
-    
+
     .zerar {
         width: 140px;
         height: 40px;
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 20px;
+        font-size: 16px;
         font-family: 'Inter', sans-serif;
         color: var(--font-titulo);
         text-shadow: #111 0px 2px 4px;
     }
-    
-    
+
+
     /*Rodapé*/
     .footer {
         margin: 0px;
