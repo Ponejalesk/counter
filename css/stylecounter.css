@@ -7,6 +7,7 @@
     --bg-marcador: #7d7d7d42;
     --font-titulo: #ECF5F2;
     --color-btn: #f8070741;
+    --color-btnh: #f8070785;
 }
 
 * {
@@ -67,13 +68,14 @@ main {
     border-radius: 10px;
 }
 
-/*.stdmarcador {
+.marcadorstd {
     width: 318px;
     height: 384px;
     margin-right: 5px;
     background-color: var(--bg-marcador);
     border-radius: 10px;
-}*/
+}
+
 .valorvenenostd {
     width: 318px;
     height: 267px;
@@ -168,6 +170,21 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.vbtnmenos:hover,
+.vbtnmais:hover,
+.btnmais:hover,
+.btmais:hover,
+.bmais:hover,
+.btnmenos:hover,
+.btmenos:hover,
+.bmenos:hover,
+.reset:hover,
+.vstdbtnmenos:hover,
+.vstdbtnmais:hover {
+    cursor: pointer;
+    background-color: var(--color-btnh);
 }
 
 .chevronmenos,
@@ -423,6 +440,21 @@ img {
         justify-content: center;
         align-items: center;
         padding-left: 2.5px;
+    }
+
+    .vbtnmenos:hover,
+    .vbtnmais:hover,
+    .btnmais:hover,
+    .btmais:hover,
+    .bmais:hover,
+    .btnmenos:hover,
+    .btmenos:hover,
+    .bmenos:hover,
+    .reset:hover,
+    .vstdbtnmenos:hover,
+    .vstdbtnmais:hover {
+        cursor: pointer;
+        background-color: var(--color-btnh);
     }
 
     .chevronmenos,
