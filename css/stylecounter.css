@@ -10,6 +10,7 @@
     --color-btnh: #f8070785;
 }
 
+
 * {
     padding: 0px;
     margin: 0px;
@@ -19,7 +20,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    height: 1024px;
+    
     background-color: var(--bg-body);
 }
 
@@ -275,15 +276,17 @@ img {
     align-items: center;
 }
 
+
+
 @media (max-width: 600px) {
     body {
         margin: 0px;
         padding: 0px;
-        height: 100vh;
+        height: auto;
         width: 100vw;
         background-color: var(--bg-body);
     }
-
+    
     /*itens retirados para a folha de estilos header*/
 
 
@@ -545,5 +548,6 @@ img {
         align-items: center;
         font-size: 12px;
     }
+    
 
 }

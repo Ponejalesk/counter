@@ -8,6 +8,7 @@ document.getElementById('btnmais').onclick = function(){
     valorcastcmd+=2;
     document.getElementById('valorcastcmd').innerText = valorcastcmd;
 }
+//document.querySelector('valorcastcmd').style.color = 
 
 let valordanocmd = 0;
 
@@ -42,6 +43,10 @@ document.getElementById('vmais').onclick = function(){
     document.getElementById('valorvida').innerText = valorvida;
 }
 
+if(valorvida <= 39){
+    document.getElementById('valorvida').style.color = 'red'
+}
+
 document.getElementById('reset').onclick = function(){
     valorcastcmd=0;
     document.getElementById('valorcastcmd').innerText = valorcastcmd;
@@ -51,20 +56,4 @@ document.getElementById('reset').onclick = function(){
     document.getElementById('valorveneno').innerText = valorveneno;
     valorvida=40;
     document.getElementById('valorvida').innerText = valorvida;
-}
-
-let stdvalorvida = 20;
-
-document.getElementById('stdvmenos').onclick = function(){
-    stdvalorvida-=1;
-    document.getElementById('stdvalorvida').innerText = stdvalorvida;
-}
-document.getElementById('stdvmais').onclick = function(){
-    stdvalorvida+=1;
-    document.getElementById('stdvalorvida').innerText = stdvalorvida;
-}
-
-document.getElementById('reset').onclick = function(){
-    stdvalorvida=20;
-    document.getElementById('stdvalorvida').innerText = stdvalorvida;
 }

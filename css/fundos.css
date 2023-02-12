@@ -1,0 +1,165 @@
+.tela2 {
+    background-image: url(../img/imagem2.jpg);
+    background-size: cover;
+}
+.tela3 {
+    background-image: url(../img/imagem3.jpg);
+    background-size: cover;
+}
+.tela4 {
+    background-image: url(../img/imagem4.jpg);
+    background-size: cover;
+}
+.tela5 {
+    background-image: url(../img/imagem5.jpg);
+    background-size: cover;
+}
+.tela6 {
+    background-image: url(../img/imagem6.jpg);
+    background-size: cover;
+}
+.tela7 {
+    background-image: url(../img/branco.png);
+    background-size: cover;
+}
+.tela8 {
+    background-image: url(../img/azul.png);
+    background-size: cover;
+}
+.tela9 {
+    background-image: url(../img/preto.png);
+    background-size: cover;
+}
+.tela10 {
+    background-image: url(../img/vermelho.png);
+    background-size: cover;
+}
+.tela11 {
+    background-image: url(../img/verde.png);
+    background-size: cover;
+}
+
+input {
+    display: block;
+}
+
+.wallpaper {
+    width: 648px;
+    height: 50px;
+    border-radius: 10px;
+    background: var(--bg-marcador);
+}
+
+.title-fundo {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    color: var(--font-titulo);
+    text-shadow: #111 0px 2px 4px;
+    cursor: pointer;
+}
+
+.conteudo {
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    display: none;
+}
+
+.conteudo img {
+    border-radius: 5px;
+}
+
+.boxfundo {
+    display: none;
+}
+
+.boxfundo:checked + .checkbox-fundo .conteudo {
+    display: block;
+}
+
+
+@media (max-width: 600px) {
+
+    .tela2 {
+        background-image: url(../img/imagem22.jpg);
+        background-size: cover;
+    }
+    .tela3 {
+        background-image: url(../img/imagem33.jpg);
+        background-size: cover;
+    }
+    .tela4 {
+        background-image: url(../img/imagem44.jpg);
+        background-size: cover;
+    }
+    .tela5 {
+        background-image: url(../img/imagem55.jpg);
+        background-size: cover;
+    }
+    .tela6 {
+        background-image: url(../img/imagem66.jpg);
+        background-size: cover;
+    }
+    .tela7 {
+        background-image: url(../img/branco.png);
+        background-size: cover;
+    }
+    .tela8 {
+        background-image: url(../img/azul.png);
+        background-size: cover;
+    }
+    .tela9 {
+        background-image: url(../img/preto.png);
+        background-size: cover;
+    }
+    .tela10 {
+        background-image: url(../img/vermelho.png);
+        background-size: cover;
+    }
+    .tela11 {
+        background-image: url(../img/verde.png);
+        background-size: cover;
+    }
+    .wallpaper {
+        width: 270px;
+        height: 50px;
+        border-radius: 10px;
+        background: var(--bg-marcador);
+    }
+    
+    .title-fundo {
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        font-family: 'Inter', sans-serif;
+        color: var(--font-titulo);
+        text-shadow: #111 0px 2px 4px;
+        cursor: pointer;
+    }
+    
+    .conteudo {
+        padding: 5px;
+        display: flex;
+        justify-content: space-around;
+        display: none;
+    }
+    
+    .conteudo img {
+        border-radius: 5px;
+    }
+    
+    .boxfundo {
+        display: none;
+    }
+    
+    .boxfundo:checked + .checkbox-fundo .conteudo {
+        display: block;
+    }
+
+}
