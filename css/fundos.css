@@ -40,14 +40,14 @@
 }
 
 input {
-    display: block;
+    display: none;
 }
 
 .wallpaper {
     width: 648px;
-    height: 50px;
     border-radius: 10px;
     background: var(--bg-marcador);
+    box-sizing: border-box;
 }
 
 .title-fundo {
@@ -65,12 +65,17 @@ input {
 .conteudo {
     padding: 5px;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    
     display: none;
 }
 
-.conteudo img {
+.wall {
     border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    
+    
 }
 
 .boxfundo {
@@ -126,9 +131,17 @@ input {
     }
     .wallpaper {
         width: 270px;
-        height: 50px;
-        border-radius: 10px;
+        border-radius: 5px;
         background: var(--bg-marcador);
+        box-sizing: border-box;
+    }
+
+    .wall {
+        border-radius: 5px;
+        width: 40px;
+        height: 40px;
+        
+        
     }
     
     .title-fundo {
@@ -141,21 +154,6 @@ input {
         color: var(--font-titulo);
         text-shadow: #111 0px 2px 4px;
         cursor: pointer;
-    }
-    
-    .conteudo {
-        padding: 5px;
-        display: flex;
-        justify-content: space-around;
-        display: none;
-    }
-    
-    .conteudo img {
-        border-radius: 5px;
-    }
-    
-    .boxfundo {
-        display: none;
     }
     
     .boxfundo:checked + .checkbox-fundo .conteudo {

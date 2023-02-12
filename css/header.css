@@ -41,11 +41,6 @@ a:hover {
     display: none;
 }
 
-.wallpaper img {
-    width: 40px;
-    height: 40px;
-}
-
 @media (max-width: 600px) {
 
     header {        
