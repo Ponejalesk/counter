@@ -26,3 +26,11 @@ document.getElementById('reset').onclick = function(){
     valorveneno=0;
     document.getElementById('valorveneno').innerText = valorveneno;
 }
+
+let visualcolor = document.querySelector('.valorvida');
+
+if(stdvalorvida > 19) {
+    visualcolor.classList.add("danger");
+} else {
+    visualcolor.classList.remove("danger");
+}

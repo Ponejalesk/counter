@@ -30,7 +30,6 @@ body {
 
 /*itens retirados para a folha de estilos header*/
 
-
 /*Main*/
 main {
     background-image: url(../img/mtgx.jpg);
@@ -238,6 +237,10 @@ img {
     align-items: center;
 }
 
+.danger {
+    color: blue;
+}
+
 /*Botão Zerar*/
 .reset {
     width: 140px;
@@ -283,7 +286,7 @@ img {
         width: 100vw;
         background-color: var(--bg-body);
     }
-    
+
     /*itens retirados para a folha de estilos header*/
 
 
@@ -299,7 +302,6 @@ img {
     .section-marcador {
         width: auto;
         height: auto;
-        /*Mexendo com a altura da página*/
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -545,6 +547,6 @@ img {
         align-items: center;
         font-size: 12px;
     }
-    
+
 
 }

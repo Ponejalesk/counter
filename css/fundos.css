@@ -63,19 +63,15 @@ input {
 }
 
 .conteudo {
-    padding: 5px;
-    display: flex;
-    align-items: center;
-    
+    padding: 5px;    
     display: none;
+    align-items: center;
+    justify-content: center;
 }
 
-.wall {
-    border-radius: 5px;
-    width: 50px;
-    height: 50px;
-    
-    
+.conteudo img {
+    cursor: pointer;
+    border-radius: 3px;
 }
 
 .boxfundo {

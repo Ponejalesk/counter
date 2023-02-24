@@ -8,7 +8,6 @@ document.getElementById('btnmais').onclick = function(){
     valorcastcmd+=2;
     document.getElementById('valorcastcmd').innerText = valorcastcmd;
 }
-//document.querySelector('valorcastcmd').style.color = 
 
 let valordanocmd = 0;
 
@@ -41,10 +40,6 @@ document.getElementById('vmenos').onclick = function(){
 document.getElementById('vmais').onclick = function(){
     valorvida+=1;
     document.getElementById('valorvida').innerText = valorvida;
-}
-
-if(valorvida <= 39){
-    document.getElementById('valorvida').style.color = 'red'
 }
 
 document.getElementById('reset').onclick = function(){
