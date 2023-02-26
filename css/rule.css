@@ -1,4 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+:root {
+    --bg-body: #959595;
+    --bg-nav: #6E6E6E;
+    --bd-footer: #6E6E6E;
+    --bg-marcador: #7d7d7d42;
+    --font-titulo: #ECF5F2;
+    --color-btn: #f8070741;
+    --color-btnh: #f8070785;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--bg-body);
+}
+
 .container {
     max-width: 926px;
     margin: auto;
+    padding: 0px 10px;
+}
+
+.container h1 {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    font-family: 'Inter', sans-serif;
+}
+
+.container h3 {
+    font-size: 20px;
+    padding-left: 50px;
+    padding-top: 15px;
+    margin: 5px;
+    font-family: 'Inter', sans-serif;
+}
+
+.container p {
+    text-indent: 15px;
+    padding-top: 4px;
+    text-align: justify;
+    font-family: 'Inter', sans-serif;
+}
+.ruleone {
+    font-size: 12px;
+}
+.ruleinfect1 {
+    padding-bottom: 15px;
+}
+
+.footer {
+    margin: 0px;
+    padding: 0px;
+    height: 100px;
+    background-color: var(--bg-nav);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    .container h1 {
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+    .container h3 {
+        font-size: 16px;
+        padding-left: 25px;
+        padding-top: 0px;
+        margin: 5px;
+    }
+    .container p {
+        text-indent: 15px;
+        padding-top: 4px;
+        font-size: 13px;
+        text-align: justify;
+    }
+    .ruleone {
+        font-size: 6px;
+    }
+    .ruleinfect1 {
+        padding-bottom: 15px;
+    }
+
 }

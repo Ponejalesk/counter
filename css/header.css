@@ -15,6 +15,10 @@ header {
     align-items: center;
 }
 
+.logo img {
+    width: 37px;
+    height: 37px;
+}
 
 .links {
     margin: 0;

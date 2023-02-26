@@ -185,8 +185,7 @@ main {
     background-color: var(--color-btnh);
 }
 
-.chevronmenos,
-img {
+.chevronmenos img {
     width: 37px;
     height: 37px;
 }
