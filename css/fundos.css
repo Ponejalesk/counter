@@ -131,14 +131,6 @@ input {
         background: var(--bg-marcador);
         box-sizing: border-box;
     }
-
-    .wall {
-        border-radius: 5px;
-        width: 40px;
-        height: 40px;
-        
-        
-    }
     
     .title-fundo {
         padding: 5px;

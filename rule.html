@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/rule.css">
+    <link rel="stylesheet" href="./css/stylecounter.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/fundos.css">
+    <script src="./js/scriptmenu.js" defer></script>
+    <title>Counter-Life-Rule</title>
+</head>
+
+<body>
+    <header class="container">
+        <div class="logo">
+            <a href="./index.html"><img src="img/logo.png" alt="logo do projeto"></a>
+        </div>
+        <nav id="nav-bar" class="nav-bar">
+            <button id="btnmobile" class="btn-mobile" aria-expanded="false"><span class="btn"></span></button>
+            <ul class="links">
+                <li>
+                    <a href="./counterlifecmd.html">Comander</a>
+                </li>
+                <li>
+                    <a href="./counterlifestd.html">Standart</a>
+                </li>
+                <li>
+                    <a href="./rule.html">Regras do Marcador</a>
+                </li>
+                <li>
+                    <a href="#">Mais</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="container">
+            <h1 class="rule">Regras de Commander.</h1>
+            <section>
+                <h3 class="subtitle">Regras de Construção de Decks.</h3>
+                <p class="rulecmd">Os jogadores escolhem uma criatura lendária como Comandante de seu baralho.</p>
+                <p class="rulecmd">A identidade de cor de um card é sua cor mais a cor de quaisquer símbolos de mana no
+                    texto de regras do card. A identidade da cor de uma carta é estabelecida antes do início do jogo e
+                    não
+                    pode ser alterada por efeitos de jogo. As cartas em um baralho não podem ter nenhuma cor em sua
+                    identidade de cor que não esteja na identidade de cor do Comandante do baralho.</p>
+                <p class="rulecmd">Um baralho de Commander deve conter exatamente 100 cartas, incluindo o comandante. Se
+                    você estiver jogando com um companheiro, ele deve seguir as regras de identidade de cor e singleton.
+                    Embora não faça parte do baralho, é efetivamente a 101ª carta.</p>
+                <p class="rulecmd">Com exceção dos terrenos básicos, duas cartas do baralho não podem ter o mesmo nome
+                    em
+                    inglês. Algumas cartas (por exemplo, Ratos Implacáveis) podem ter um texto de regras que substitui
+                    essa
+                    restrição.</p>
+            </section>
+            <section>
+                <h3 class="subtitle">Regras de jogo Commander.</h3>
+                <p class="rulecmd">Os jogadores começam o jogo com 40 de vida.</p>
+                <p class="rulecmd">Os Comandantes começam o jogo na Zona de Comando. Enquanto um Comandante está na zona
+                    de comando, ele pode ser lançado, sujeito às restrições de tempo normais para fundir criaturas. Seu
+                    proprietário deve pagar 2 manas incolores por cada vez que foi anteriormente lançado da zona de
+                    comando; trata-se de um custo adicional.</p>
+                <p class="rulecmd">Se um Comandante estiver em um cemitério ou no exílio e esse cartão foi colocado
+                    nessa zona desde a última vez que as ações baseadas no estado foram verificadas, seu proprietário
+                    pode colocá-lo na zona de comando. Se um Comandante for colocado na mão de seu proprietário ou
+                    biblioteca de qualquer lugar, seu proprietário pode colocá-lo na zona de comando. Este efeito de
+                    substituição pode aplicar-se mais do que uma vez ao mesmo evento.</p>
+                <p class="rulecmd">Ser um Comandante não é uma característica [MTG CR109.3], é uma propriedade do cartão
+                    e vinculado diretamente ao cartão físico. Como tal, a "comendação" não pode ser copiada ou
+                    substituída por efeitos contínuos. A carta mantém sua capacidade de Comandante através de quaisquer
+                    mudanças de status, e ainda é um Comandante, mesmo quando controlado por outro jogador.</p>
+                <p class="rulecmd">Se um jogador recebeu 21 pontos de dano de combate por um Comandante em particular
+                    durante o jogo, esse jogador perde um jogo.</p>
+                <p class="rulecmd">Partes de habilidades que trazem outras cartas tradicionais que você possui de fora
+                    do jogo para o jogo (como o Living Wish; Spawnsire de Ulamog; Karn, o Grande Criador; Desejo) não
+                    funcionam no Commander.</p>
+            </section>
+            <h1 class="rule">Regras do formato Padrão¹.</h1>
+            <section>
+                <p class="ruleone">Lê-se "Padrão" como vários formatos de jogo e não apenas especificamente o formato
+                    oficial Padrão.</p>
+            </section>
+            <h1 class="rule">Regras Veneno/Infect.</h1>
+            <section>
+                <h3 class="subtitle">Regras para qualquer formato de jogo.</h3>
+                <p class="ruleinfect">Quando uma criatura com infectar causa dano a um jogador, o jogador não perde
+                    nenhum
+                    ponto de vida como resultado, em vez disso, ele recebe uma quantidade equivalente de marcadores de
+                    veneno. Se um jogador tem dez ou mais marcadores de veneno, aquele jogador perde o jogo.</p>
+                <p class="ruleinfect">Ao contrário do dano normal, os marcadores -1/-1 permanecem na criatura
+                    indefinidamente. Uma criatura com resistência menor ou igual a 0 é colocada no cemitério, mesmo
+                    sendo
+                    indestrutível ou podendo se regenerar.</p>
+                <p class="ruleinfect">O dano de uma fonte com infectar é dano, mesmo tendo um efeito diferente dos
+                    outros
+                    tipos de dano. Vínculo com a vida, toque mortífero e habilidades que são desencadeadas quando uma
+                    criatura causa dano funcionam normalmente, e o dano pode ser prevenido ou redirecionado.</p>
+                <p class="ruleinfect">O dano de uma fonte com infectar afeta planeswalkers normalmente.</p>
+            </section>
+        </section>
+    </main>
+    <footer class="container">
+        <div class="footer">
+            <p>Projeto - Marcador de Vida Magic The Gathering.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
