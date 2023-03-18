@@ -458,8 +458,7 @@ main {
         background-color: var(--color-btnh);
     }
 
-    .chevronmenos,
-    img {
+    .chevronmenos img {
         width: 32px;
         height: 32px;
     }

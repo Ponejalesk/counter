@@ -2,38 +2,47 @@
     background-image: url(../img/imagem2.jpg);
     background-size: cover;
 }
+
 .tela3 {
     background-image: url(../img/imagem3.jpg);
     background-size: cover;
 }
+
 .tela4 {
     background-image: url(../img/imagem4.jpg);
     background-size: cover;
 }
+
 .tela5 {
     background-image: url(../img/imagem5.jpg);
     background-size: cover;
 }
+
 .tela6 {
     background-image: url(../img/imagem6.jpg);
     background-size: cover;
 }
+
 .tela7 {
     background-image: url(../img/branco.png);
     background-size: cover;
 }
+
 .tela8 {
     background-image: url(../img/azul.png);
     background-size: cover;
 }
+
 .tela9 {
     background-image: url(../img/preto.png);
     background-size: cover;
 }
+
 .tela10 {
     background-image: url(../img/vermelho.png);
     background-size: cover;
 }
+
 .tela11 {
     background-image: url(../img/verde.png);
     background-size: cover;
@@ -63,28 +72,29 @@ input {
 }
 
 .conteudo {
-    padding: 5px;    
+    padding: 5px;
     display: none;
     align-items: center;
     justify-content: center;
 }
 
 .conteudo img {
+    width: 35px;
+    height: 35px;
     cursor: pointer;
-    border-radius: 3px;
+    border-radius: 3px;    
 }
 
 .boxfundo {
     display: none;
 }
 
-.boxfundo:checked + .checkbox-fundo .conteudo {
+.boxfundo:checked+.checkbox-fundo .conteudo {
     display: block;
 }
 
 
 @media (max-width: 600px) {
-
     .tela2 {
         background-image: url(../img/imagem22.jpg);
         background-size: cover;
@@ -131,7 +141,6 @@ input {
         background: var(--bg-marcador);
         box-sizing: border-box;
     }
-    
     .title-fundo {
         padding: 5px;
         display: flex;
@@ -143,8 +152,7 @@ input {
         text-shadow: #111 0px 2px 4px;
         cursor: pointer;
     }
-    
-    .boxfundo:checked + .checkbox-fundo .conteudo {
+    .boxfundo:checked+.checkbox-fundo .conteudo {
         display: block;
     }
 
