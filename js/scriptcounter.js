@@ -23,7 +23,7 @@ document.getElementById('btmenos').onclick = function () {
 document.getElementById('btmais').onclick = function () {
     valordanocmd += 1;
     document.getElementById('valordanocmd').innerText = valordanocmd;
-    if(valordanocmd >= 21) {
+    if (valordanocmd >= 21) {
         alert("Parabéns você venceu o jogo!");
     }
 }
@@ -36,24 +36,31 @@ document.getElementById('bmenos').onclick = function () {
         document.getElementById('valorveneno').innerText = valorveneno;
     }
 }
+//Se o valor do marcador Veneno for igual ou maior que 10, perder o jogo.
 document.getElementById('bmais').onclick = function () {
     valorveneno += 1;
     document.getElementById('valorveneno').innerText = valorveneno;
+    if (valorveneno >= 10) {
+        alert('Você foi derrotado!');
+    }
 }
 
 let valorvida = 40;
-//Se a vida ficar abixo de 5 deve mudar a cor da fonte para vermelho.
+//Se a vida ficar abixo de 5 deve mudar a cor da fonte para vermelho e Se ficar em 0 ou abaixo, perde o jogo.
 document.getElementById('vmenos').onclick = function () {
     valorvida -= 1;
     document.getElementById('valorvida').innerText = valorvida;
     if (valorvida <= 5) {
         document.querySelector('.valorvida').classList.add('danger');
     }
+    if (valorvida <= 0) {
+        alert('Você foi derrotado!');
+    }
 }
 document.getElementById('vmais').onclick = function () {
     valorvida += 1;
     document.getElementById('valorvida').innerText = valorvida;
-    if(valorvida >= 6) {
+    if (valorvida >= 6) {
         document.querySelector('.valorvida').classList.remove('danger');
     }
 }

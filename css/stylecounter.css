@@ -414,7 +414,7 @@ main {
         align-items: center;
         font-size: 115px;
         font-family: 'Inter', sans-serif;
-        color: var(--font-titulo);
+
         text-shadow: #111 0px 2px 4px;
         font-weight: 500;
     }
@@ -443,20 +443,7 @@ main {
         padding-left: 2.5px;
     }
 
-    .vbtnmenos:hover,
-    .vbtnmais:hover,
-    .btnmais:hover,
-    .btmais:hover,
-    .bmais:hover,
-    .btnmenos:hover,
-    .btmenos:hover,
-    .bmenos:hover,
-    .reset:hover,
-    .vstdbtnmenos:hover,
-    .vstdbtnmais:hover {
-        cursor: pointer;
-        background-color: var(--color-btnh);
-    }
+
 
     .chevronmenos img {
         width: 32px;
